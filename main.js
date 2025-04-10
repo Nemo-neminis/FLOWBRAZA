@@ -6,7 +6,7 @@ $(function () {
         // Dopo la sfumatura, mostra la scena
         setTimeout(() => {
             $('.sipario').fadeOut(600, function () {
-                $('.scena').fadeIn(800);
+                $('.scena').fadeIn(1900);
                 $('body').css('overflow', 'auto');
             });
         }, 1300); // Deve combaciare con la durata della transizione in CSS
