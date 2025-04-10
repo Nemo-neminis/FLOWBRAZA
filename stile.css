@@ -54,3 +54,10 @@ body, html {
     box-sizing: border-box;
     overflow-y: auto;
 }
+
+.locandina {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px; /* Centra l'immagine e aggiunge spazio sotto */
+}
